@@ -1,0 +1,42 @@
+### Create a new ad
+
+POST http://localhost:3000/market
+content-type: application/json
+
+{
+  "title":"Sell BMW, lightly scratched",
+  "make": "BMW",
+  "model": "M3",
+  "year": 2021,
+  "mileage": 100,
+  "fuelType": "gasoline",
+  "power": 480,
+  "defective": false,
+  "accidentFree": false,
+  "details": "It turns right",
+  "price": 500000,
+  "voivodeship": "Slunsk",
+  "city": "Hawkeye-Spa",
+  "userId": "42c47985-dfc3-4a63-9164-a517c9c7d514"
+}
+
+### Find all ads
+GET http://localhost:3000/market
+
+### Filtering existing ads
+POST http://localhost:3000/ad
+content-type: application/json
+
+{
+  "minYear": 1995,
+  "maxYear": 2005
+}
+
+### Approve an existing ad
+PATCH http://localhost:3000/ad
+content-type: application/json
+
+{
+  "approved": true
+}
+

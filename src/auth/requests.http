@@ -1,0 +1,13 @@
+### Sign in as an existing user
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+  "email": "test122@test.com",
+  "password": "12345"
+}
+
+
+### Sign out
+POST http://localhost:3000/auth/logout
+
