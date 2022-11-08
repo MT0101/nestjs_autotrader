@@ -44,9 +44,9 @@ A project in a very early version. It is the groundwork for a future used car tr
 💪 addition of unit, integration and E2E tests <br>
 💪 code refactoring to achieve a clean state <br>
 
-🤞🐱‍🐉 Estimated time: at the end of 08.2022
+🤞🐱‍🐉 Estimated time: at the end of 11.2022
 
 
-## License
 
-Nest is [MIT licensed](LICENSE).
+
+
